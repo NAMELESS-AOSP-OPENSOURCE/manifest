@@ -13,6 +13,10 @@
           fetch="https://gitlab.com/cjh1249131356"
           revision="twelve" />
 
+    <remote name="arrow"
+          fetch="https://github.com/ArrowOS"
+          revision="arrow-12.0" />
+
   <!-- Device repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="nameless" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="nameless" />
