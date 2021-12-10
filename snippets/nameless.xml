@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve" />
+
+    <remote name="nameless"
+          fetch="https://github.com/Nameless-AOSP"
+          revision="twelve" />
+
+    <remote name="nameless-gitlab"
+          fetch="https://gitlab.com/cjh1249131356"
+          revision="twelve" />
+
+  <!-- Device repos -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="nameless" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="nameless" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="nameless" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="nameless" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="nameless" />
+
+  <!-- External repos -->
+  <project path="external/colorkt" name="external_colorkt" remote="nameless" />
+  <project path="external/themelib" name="external_themelib" remote="nameless" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="nameless" />
+  <project path="frameworks/base" name="frameworks_base" remote="nameless" />
+  <project path="frameworks/native" name="frameworks_native" remote="nameless" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nameless" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="nameless" />
+  <project path="bionic" name="bionic" remote="nameless" />
+  <project path="build/make" name="build" remote="nameless">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="nameless" />
+  <project path="manifest" name="manifest" remote="nameless" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nameless" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="nameless" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="nameless" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="nameless" />
+  <project path="system/logging" name="system_logging" remote="nameless" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="nameless" />
+  <project path="system/security" name="system_security" remote="nameless" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="nameless" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="nameless" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="nameless-gitlab" clone-depth="1" />
+  <project path="vendor/themes" name="vendor_themes" remote="nameless" />
+
+</manifest>
