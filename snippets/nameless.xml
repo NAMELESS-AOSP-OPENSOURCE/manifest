@@ -70,6 +70,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="nameless" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="nameless" />
   <project path="vendor/gapps" name="vendor_gapps" remote="nameless-gitlab" clone-depth="1" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="nameless" />
   <project path="vendor/themes" name="vendor_themes" remote="nameless" />
 
 </manifest>
