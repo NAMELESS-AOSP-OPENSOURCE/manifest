@@ -14,7 +14,6 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="pixel" />
 
   <!-- Packages repos -->

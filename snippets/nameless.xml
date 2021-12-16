@@ -49,6 +49,9 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="nameless" />
   <project path="manifest" name="manifest" remote="nameless" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="nameless" />
+
   <!-- Packages repos -->
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
