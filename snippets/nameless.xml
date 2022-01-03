@@ -76,4 +76,9 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="nameless" />
   <project path="vendor/themes" name="vendor_themes" remote="nameless" />
 
+  <!-- OP 9/9Pro kernel dependencies -->
+  <project path="device/qcom/common" name="op9kernel_dependencies" remote="nameless" revision="qcom-common" />
+  <project path="hardware/qcom-caf/kernel-headers" name="op9kernel_dependencies" remote="nameless" revision="kernel-headers">
+    <linkfile src="msm-5.4" dest="hardware/qcom-caf/sm8350/kernel-headers" />
+  </project>
 </manifest>
