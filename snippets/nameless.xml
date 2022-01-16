@@ -51,6 +51,9 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="nameless" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio-sm8250" groups="qcom,qcom_audio,pdk-qcom" remote="nameless" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display-sm8250" groups="pdk-qcom,qcom,qcom_display" remote="nameless" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media-sm8250" groups="qcom,pdk-qcom" remote="nameless" />
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_audio-sm8350" groups="qcom,qcom_audio,pdk-qcom" remote="nameless" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_display-sm8350" groups="pdk-qcom,qcom,qcom_display" remote="nameless" />
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media-sm8350" groups="qcom,pdk-qcom" remote="nameless" />
