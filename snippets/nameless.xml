@@ -47,6 +47,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="nameless" />
+  <project path="libcore" name="libcore" remote="nameless" />
   <project path="manifest" name="manifest" remote="nameless" />
 
   <!-- Hardware repos -->
