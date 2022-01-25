@@ -64,6 +64,7 @@
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="nameless" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="nameless" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nameless" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="nameless" />
 
