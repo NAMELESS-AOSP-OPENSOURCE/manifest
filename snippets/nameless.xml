@@ -26,6 +26,7 @@
 
   <!-- External repos -->
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
 
   <!-- Framework repos -->

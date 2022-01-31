@@ -72,6 +72,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
