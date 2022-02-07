@@ -83,6 +83,7 @@
   <project path="system/logging" name="system_logging" remote="nameless" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="nameless" />
   <project path="system/security" name="system_security" remote="nameless" />
+  <project path="system/update_engine" name="system_update_engine" remote="nameless" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="nameless" />
