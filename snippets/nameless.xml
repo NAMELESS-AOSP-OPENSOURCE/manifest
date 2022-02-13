@@ -23,6 +23,7 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="nameless" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="nameless" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="nameless" />
+  <project path="device/qcom/common"  name="device_qcom_common" remote="nameless" />
 
   <!-- External repos -->
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
@@ -94,9 +95,4 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="nameless" />
   <project path="vendor/themes" name="vendor_themes" remote="nameless" />
 
-  <!-- OP 9/9Pro kernel dependencies -->
-  <project path="device/qcom/common" name="op9kernel_dependencies" remote="nameless" revision="qcom-common" />
-  <project path="hardware/qcom-caf/kernel-headers" name="op9kernel_dependencies" remote="nameless" revision="kernel-headers">
-    <linkfile src="msm-5.4" dest="hardware/qcom-caf/sm8350/kernel-headers" />
-  </project>
 </manifest>
