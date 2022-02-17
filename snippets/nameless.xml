@@ -70,6 +70,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="nameless" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="nameless" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="nameless" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nameless" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="nameless" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nameless" />
