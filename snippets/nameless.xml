@@ -27,7 +27,6 @@
 
   <!-- External repos -->
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
-  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
 
   <!-- Framework repos -->
@@ -53,7 +52,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="nameless" />
-  <project path="libcore" name="libcore" remote="nameless" />
   <project path="manifest" name="manifest" remote="nameless" />
 
   <!-- Hardware repos -->
