@@ -55,6 +55,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
+  <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
