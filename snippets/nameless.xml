@@ -27,6 +27,7 @@
 
   <!-- External repos -->
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
 
   <!-- Framework repos -->
@@ -95,6 +96,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nameless" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="nameless" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="nameless" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
