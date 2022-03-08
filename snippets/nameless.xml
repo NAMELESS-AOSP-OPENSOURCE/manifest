@@ -26,17 +26,22 @@
   <project path="device/qcom/common"  name="device_qcom_common" remote="nameless" />
 
   <!-- External repos -->
+  <project path="external/libcxx" name="external_libcxx" remote="nameless" />
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
   <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
+  <project path="external/selinux" name="external_selinux" remote="nameless" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="nameless" />
 
   <!-- Framework repos -->
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="nameless" />
   <project path="frameworks/av" name="frameworks_av" remote="nameless" />
   <project path="frameworks/base" name="frameworks_base" remote="nameless" />
   <project path="frameworks/native" name="frameworks_native" remote="nameless" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nameless" />
 
   <!-- General repos -->
+  <project path="platform_testing" name="platform_testing" remote="nameless" />
   <project path="art" name="art" remote="nameless" />
   <project path="bionic" name="bionic" remote="nameless" />
   <project path="build/make" name="build" remote="nameless">
@@ -57,6 +62,9 @@
   <project path="manifest" name="manifest" remote="nameless" />
 
   <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="nameless" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="nameless" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="nameless" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="nameless" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -97,13 +105,17 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nameless" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="nameless" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="nameless" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="nameless" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="nameless" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="nameless" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nameless" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="nameless" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="nameless" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="nameless" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nameless" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="nameless" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nameless" />
@@ -115,10 +127,14 @@
   <project path="system/core" name="system_core" remote="nameless" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="nameless" />
   <project path="system/logging" name="system_logging" remote="nameless" />
+  <project path="system/media" name="system_media" remote="nameless" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="nameless" />
   <project path="system/security" name="system_security" remote="nameless" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="nameless" />
   <project path="system/update_engine" name="system_update_engine" remote="nameless" />
   <project path="system/bt" name="system_bt" remote="nameless" />
+  <project path="system/vold" name="system_vold" remote="nameless" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="nameless" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="nameless" />
