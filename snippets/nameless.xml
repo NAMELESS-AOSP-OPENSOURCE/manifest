@@ -30,9 +30,11 @@
   <project path="device/qcom/common"  name="device_qcom_common" remote="nameless" />
 
   <!-- External repos -->
+  <project path="external/colorkt" name="external_colorkt" remote="nameless" />
   <project path="external/libcxx" name="external_libcxx" remote="nameless" />
   <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
   <project path="external/selinux" name="external_selinux" remote="nameless" />
+  <project path="external/themelib" name="external_themelib" remote="nameless" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="nameless" />
 
   <!-- Framework repos -->
