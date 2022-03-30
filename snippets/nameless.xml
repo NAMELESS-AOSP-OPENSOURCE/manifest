@@ -30,6 +30,7 @@
   <project path="device/qcom/common"  name="device_qcom_common" remote="nameless" />
 
   <!-- External repos -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="nameless" />
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
   <project path="external/libcxx" name="external_libcxx" remote="nameless" />
   <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
