@@ -110,7 +110,6 @@
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media-sm8350" groups="qcom,pdk-qcom" remote="nameless" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="nameless" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nameless" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="nameless" />
