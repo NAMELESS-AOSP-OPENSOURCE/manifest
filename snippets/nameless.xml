@@ -130,6 +130,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nameless" />
 
   <!-- Prebuilts repos -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="nameless" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="nameless" clone-depth="1" />
 
   <!-- System Repos -->
