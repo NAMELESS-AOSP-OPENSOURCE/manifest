@@ -123,6 +123,7 @@
   <project path="packages/modules/adb" name="packages_modules_adb" remote="nameless" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nameless" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="nameless" />
+  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="nameless" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="nameless" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="nameless" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="nameless" />
