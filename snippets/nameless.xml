@@ -123,8 +123,9 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="nameless" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="nameless" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nameless" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="nameless" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="nameless" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nameless" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="nameless" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="nameless" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="nameless" />
