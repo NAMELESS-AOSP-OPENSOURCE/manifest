@@ -68,10 +68,14 @@
   <!-- External repos -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />

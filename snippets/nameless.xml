@@ -32,10 +32,14 @@
   <!-- External repos -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="nameless" />
   <project path="external/colorkt" name="external_colorkt" remote="nameless" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
+  <project path="external/freetype" name="external_freetype" remote="nameless" />
+  <project path="external/giflib" name="external_giflib" remote="nameless" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="nameless" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nameless" />
   <project path="external/libcxx" name="external_libcxx" remote="nameless" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="nameless" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
+  <project path="external/libvpx" name="external_libvpx" remote="nameless" />
   <project path="external/selinux" name="external_selinux" remote="nameless" />
   <project path="external/sqlite" name="external_sqlite" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
