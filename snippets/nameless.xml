@@ -40,6 +40,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="nameless" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="nameless" />
   <project path="external/libvpx" name="external_libvpx" remote="nameless" />
+  <project path="external/OpenCSD" name="external_OpenCSD" remote="nameless" />
   <project path="external/selinux" name="external_selinux" remote="nameless" />
   <project path="external/sqlite" name="external_sqlite" remote="nameless" />
   <project path="external/themelib" name="external_themelib" remote="nameless" />
