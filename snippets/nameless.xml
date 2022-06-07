@@ -19,7 +19,7 @@
 
     <remote name="kscope"
           fetch="https://github.com/Project-Kaleidoscope"
-          revision="sunflower" />
+          revision="sunflowerleaf" />
 
   <!-- Device repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="nameless" />
