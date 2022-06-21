@@ -124,7 +124,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="nameless" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="nameless" />
-  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="nameless" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="nameless" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nameless" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
