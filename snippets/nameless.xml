@@ -10,7 +10,7 @@
           revision="twelve" />
 
     <remote name="nameless-gitlab"
-          fetch="ssh://git@gitlab.com/cjh1249131356"
+          fetch="https://gitlab.com/cjh1249131356"
           revision="twelve" />
 
     <remote name="arrow"
