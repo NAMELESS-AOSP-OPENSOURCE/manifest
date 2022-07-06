@@ -82,6 +82,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="nameless" />
   <project path="hardware/kscope/interfaces"  name="hardware_kscope_interfaces" remote="nameless" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="nameless" />
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="nameless" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="nameless" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
