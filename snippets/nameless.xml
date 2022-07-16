@@ -21,6 +21,10 @@
           fetch="ssh://git@github.com/Project-Kaleidoscope"
           revision="sunflowerleaf" />
 
+    <remote name="lineage"
+          fetch="ssh://git@github.com/LineageOS"
+          revision="lineage-19.1" />
+
   <!-- Device repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="nameless" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="nameless" />
@@ -83,6 +87,7 @@
   <project path="hardware/kscope/interfaces"  name="hardware_kscope_interfaces" remote="nameless" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="nameless" />
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="nameless" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="nameless" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
