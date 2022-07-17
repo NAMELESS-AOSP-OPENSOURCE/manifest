@@ -7,7 +7,7 @@
 
     <remote name="kaddu"
 	  fetch="https://github.com/NAMELESS-AOSP-OPENSOURCE"
-          revision="twelve" />
+          revision="nameless" />
 
     <remote name="nameless-gitlab"
           fetch="https://gitlab.com/cjh1249131356"
