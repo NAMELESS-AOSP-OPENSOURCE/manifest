@@ -1,9 +1,9 @@
-# Nameless-AOSP #
+# Nameless-AOSP-Opensource #
 
 How to build Nameless-AOSP for your device - Tutorial
 ==============================================
 
-Downloading Nameless-AOSP Source Codes
+Downloading Nameless-AOSP-Opensource Source Codes
 -------------------------------
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
@@ -11,12 +11,12 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 # Initialize local repository
 ```bash
-repo init -u git@github.com:Nameless-AOSP/manifest.git -b twelve
+repo init -u https://github.com/NAMELESS-AOSP-OPENSOURCE/manifest.git -b nameless
 ```
 To save time, space and internet data during sync, use a command like this:
 
 ```bash
-repo init --depth=1 -u git@github.com:Nameless-AOSP/manifest.git -b twelve
+repo init -u https://github.com/NAMELESS-AOSP-OPENSOURCE/manifest.git -b nameless --depth=1
 ```
 # Sync
 ```bash
