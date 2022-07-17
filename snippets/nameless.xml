@@ -9,7 +9,7 @@
 	  fetch="https://github.com/NAMELESS-AOSP-OPENSOURCE"
           revision="twelve" />
 
-    <remote name="kaddu-gitlab"
+    <remote name="nameless-gitlab"
           fetch="https://gitlab.com/cjh1249131356"
           revision="twelve" />
 
@@ -25,6 +25,10 @@
 	  fetch="https://github.com/LineageOS"
           revision="lineage-19.1" />
 
+    <remote name="fwb-gitlab"
+          fetch="https://gitlab.com/xkaen"
+          revision="nameless" />
+	
   <!-- Device repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="kaddu" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="kaddu" />
@@ -54,7 +58,7 @@
   <!-- Framework repos -->
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="kaddu" />
   <project path="frameworks/av" name="frameworks_av" remote="kaddu" />
-  <project path="frameworks/base" name="frameworks_base" remote="kaddu" />
+  <project path="frameworks/base" name="frameworks_base" remote="fwb-gitlab" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="kaddu" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="kaddu" />
   <project path="frameworks/native" name="frameworks_native" remote="kaddu" />
