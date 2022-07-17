@@ -2,69 +2,69 @@
 <manifest>
 
   <remote name="pixel"
-          fetch="ssh://git@github.com/PixelExperience"
+	  fetch="https://github.com/PixelExperience"
           revision="twelve" />
 
-    <remote name="nameless"
-          fetch="ssh://git@github.com/Nameless-AOSP"
+    <remote name="kaddu"
+	  fetch="https://github.com/NAMELESS-AOSP-OPENSOURCE"
           revision="twelve" />
 
-    <remote name="nameless-gitlab"
+    <remote name="kaddu-gitlab"
           fetch="https://gitlab.com/cjh1249131356"
           revision="twelve" />
 
     <remote name="arrow"
-          fetch="ssh://git@github.com/ArrowOS"
+	  fetch="https://github.com/ArrowOS"
           revision="arrow-12.1" />
 
     <remote name="kscope"
-          fetch="ssh://git@github.com/Project-Kaleidoscope"
+	  fetch="https://github.com/Project-Kaleidoscope"
           revision="sunflowerleaf" />
 
     <remote name="lineage"
-          fetch="ssh://git@github.com/LineageOS"
+	  fetch="https://github.com/LineageOS"
           revision="lineage-19.1" />
 
   <!-- Device repos -->
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="nameless" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="nameless" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="nameless" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="nameless" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="nameless" />
-  <project path="device/qcom/common"  name="device_qcom_common" remote="nameless" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="kaddu" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="kaddu" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="kaddu" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="kaddu" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="kaddu" />
+  <project path="device/qcom/common"  name="device_qcom_common" remote="kaddu" />
 
   <!-- External repos -->
-  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="nameless" />
-  <project path="external/colorkt" name="external_colorkt" remote="nameless" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="nameless" />
-  <project path="external/freetype" name="external_freetype" remote="nameless" />
-  <project path="external/giflib" name="external_giflib" remote="nameless" />
-  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="nameless" />
-  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nameless" />
-  <project path="external/libcxx" name="external_libcxx" remote="nameless" />
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="nameless" />
-  <project path="external/libvpx" name="external_libvpx" remote="nameless" />
-  <project path="external/OpenCSD" name="external_OpenCSD" remote="nameless" />
-  <project path="external/selinux" name="external_selinux" remote="nameless" />
-  <project path="external/sqlite" name="external_sqlite" remote="nameless" />
-  <project path="external/themelib" name="external_themelib" remote="nameless" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="nameless" />
-  <project path="external/zlib-ng" name="external_zlib-ng" remote="nameless" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="kaddu" />
+  <project path="external/colorkt" name="external_colorkt" remote="kaddu" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="kaddu" />
+  <project path="external/freetype" name="external_freetype" remote="kaddu" />
+  <project path="external/giflib" name="external_giflib" remote="kaddu" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="kaddu" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="kaddu" />
+  <project path="external/libcxx" name="external_libcxx" remote="kaddu" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="kaddu" />
+  <project path="external/libvpx" name="external_libvpx" remote="kaddu" />
+  <project path="external/OpenCSD" name="external_OpenCSD" remote="kaddu" />
+  <project path="external/selinux" name="external_selinux" remote="kaddu" />
+  <project path="external/sqlite" name="external_sqlite" remote="kaddu" />
+  <project path="external/themelib" name="external_themelib" remote="kaddu" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="kaddu" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="kaddu" />
 
   <!-- Framework repos -->
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="nameless" />
-  <project path="frameworks/av" name="frameworks_av" remote="nameless" />
-  <project path="frameworks/base" name="frameworks_base" remote="nameless" />
-  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="nameless" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="nameless" />
-  <project path="frameworks/native" name="frameworks_native" remote="nameless" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nameless" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="kaddu" />
+  <project path="frameworks/av" name="frameworks_av" remote="kaddu" />
+  <project path="frameworks/base" name="frameworks_base" remote="kaddu" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="kaddu" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="kaddu" />
+  <project path="frameworks/native" name="frameworks_native" remote="kaddu" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="kaddu" />
 
   <!-- General repos -->
-  <project path="platform_testing" name="platform_testing" remote="nameless" />
-  <project path="art" name="art" remote="nameless" />
-  <project path="bionic" name="bionic" remote="nameless" />
-  <project path="build/make" name="build" remote="nameless">
+  <project path="platform_testing" name="platform_testing" remote="kaddu" />
+  <project path="art" name="art" remote="kaddu" />
+  <project path="bionic" name="bionic" remote="kaddu" />
+  <project path="build/make" name="build" remote="kaddu">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -73,22 +73,22 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="nameless" >
+  <project path="build/soong" name="build_soong" remote="kaddu" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="nameless" />
-  <project path="libcore" name="libcore" remote="nameless" />
-  <project path="manifest" name="manifest" remote="nameless" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="kaddu" />
+  <project path="libcore" name="libcore" remote="kaddu" />
+  <project path="manifest" name="manifest" remote="kaddu" />
 
   <!-- Hardware repos -->
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="nameless" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="nameless" />
-  <project path="hardware/kscope/interfaces"  name="hardware_kscope_interfaces" remote="nameless" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="nameless" />
-  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="nameless" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="kaddu" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="kaddu" />
+  <project path="hardware/kscope/interfaces"  name="hardware_kscope_interfaces" remote="kaddu" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="kaddu" />
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="kaddu" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="nameless" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="kaddu" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
@@ -117,77 +117,77 @@
     <!-- add namespace for BT adv audio, as required for QTI BT stack -->
     <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
   </project>
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio-sm8250" groups="qcom,qcom_audio,pdk-qcom" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display-sm8250" groups="pdk-qcom,qcom,qcom_display" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media-sm8250" groups="qcom,pdk-qcom" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_audio-sm8350" groups="qcom,qcom_audio,pdk-qcom" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_display-sm8350" groups="pdk-qcom,qcom,qcom_display" remote="nameless" />
-  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media-sm8350" groups="qcom,pdk-qcom" remote="nameless" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio-sm8250" groups="qcom,qcom_audio,pdk-qcom" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display-sm8250" groups="pdk-qcom,qcom,qcom_display" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media-sm8250" groups="qcom,pdk-qcom" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_audio-sm8350" groups="qcom,qcom_audio,pdk-qcom" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_display-sm8350" groups="pdk-qcom,qcom,qcom_display" remote="kaddu" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_media-sm8350" groups="qcom,pdk-qcom" remote="kaddu" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nameless" />
-  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nameless" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="nameless" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="nameless" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="nameless" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nameless" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nameless" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="nameless" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="nameless" />
-  <project path="packages/modules/adb" name="packages_modules_adb" remote="nameless" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="nameless" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="nameless" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nameless" />
-  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="nameless" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="nameless" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="nameless" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="nameless" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nameless" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="nameless" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nameless" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="kaddu" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="kaddu" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="kaddu" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="kaddu" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="kaddu" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="kaddu" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="kaddu" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="kaddu" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="kaddu" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="kaddu" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="kaddu" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="kaddu" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="kaddu" />
+  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="kaddu" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="kaddu" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="kaddu" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="kaddu" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="kaddu" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="kaddu" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="kaddu" />
 
   <!-- Prebuilts repos -->
-  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="nameless" clone-depth="1" />
-  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="nameless" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="kaddu" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="kaddu" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/core" name="system_core" remote="nameless" />
-  <project path="system/libhwbinder" name="system_libhwbinder" remote="nameless" />
-  <project path="system/logging" name="system_logging" remote="nameless" />
-  <project path="system/media" name="system_media" remote="nameless" />
-  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="nameless" />
-  <project path="system/security" name="system_security" remote="nameless" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="nameless" />
-  <project path="system/update_engine" name="system_update_engine" remote="nameless" />
-  <project path="system/bt" name="system_bt" remote="nameless" />
-  <project path="system/vold" name="system_vold" remote="nameless" />
-  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="nameless" />
+  <project path="system/core" name="system_core" remote="kaddu" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="kaddu" />
+  <project path="system/logging" name="system_logging" remote="kaddu" />
+  <project path="system/media" name="system_media" remote="kaddu" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="kaddu" />
+  <project path="system/security" name="system_security" remote="kaddu" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="kaddu" />
+  <project path="system/update_engine" name="system_update_engine" remote="kaddu" />
+  <project path="system/bt" name="system_bt" remote="kaddu" />
+  <project path="system/vold" name="system_vold" remote="kaddu" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="kaddu" />
 
   <!-- Vendor repos -->
-  <project path="vendor/aosp" name="vendor_aosp" remote="nameless" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="nameless" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="nameless-gitlab" clone-depth="1" />
-  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="nameless" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nameless" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="nameless" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="nameless" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="nameless" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="nameless" />
-  <project path="vendor/themes" name="vendor_themes" remote="nameless" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="kaddu" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="kaddu" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="kaddu-gitlab" clone-depth="1" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="kaddu" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="kaddu" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="kaddu" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="kaddu" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="kaddu" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="kaddu" />
+  <project path="vendor/themes" name="vendor_themes" remote="kaddu" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="kscope" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="nameless" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="kaddu" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="kscope" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="nameless" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="kaddu" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="kscope" revision="sunflower-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="kscope" revision="sunflower-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nameless" revision="twelve-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="kaddu" revision="twelve-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="kscope" revision="sunflower-sn100x" />
 
   <!-- Savitech LHDC-->
-  <project path="external/liblhdc" name="external_liblhdc" remote="nameless" />
-  <project path="external/liblhdcdec" name="external_liblhdcdec" remote="nameless" />
+  <project path="external/liblhdc" name="external_liblhdc" remote="kaddu" />
+  <project path="external/liblhdcdec" name="external_liblhdcdec" remote="kaddu" />
 
 </manifest>
